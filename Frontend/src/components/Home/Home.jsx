@@ -2,17 +2,29 @@ import React from "react";
 import {Link, NavLink} from "react-router-dom";
 const Home = () => {
   return (
-    <div>
-      <div className="flex gap-5">
-        <NavLink to="bca">
-          <button className="bg-black text-white p-1 rounded">BCA</button>
-        </NavLink>
-        <NavLink to="it">
-          <button className="bg-black text-white p-1 rounded">IT</button>
-        </NavLink>
-        <NavLink to="cs">
-          <button className="bg-black text-white p-1 rounded">CS</button>
-        </NavLink>
+    <div className="h-screen bg-red-400">
+      <div className="h-full flex gap-3 justify-center items-center">
+        <div>
+          <NavLink to="bca">
+            <button className="bg-black text-white p-4 border-white border-2 rounded text-xl">
+              BCA
+            </button>
+          </NavLink>{" "}
+        </div>
+        <div>
+          <NavLink to="it">
+            <button className="bg-black text-white  p-4 border-white border-2 rounded">
+              IT
+            </button>
+          </NavLink>
+        </div>
+        <div>
+          <NavLink to="cs">
+            <button className="bg-black text-white p-4 border-white border-2  rounded">
+              CS
+            </button>
+          </NavLink>
+        </div>
       </div>
     </div>
   );
