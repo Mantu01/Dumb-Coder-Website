@@ -5,7 +5,7 @@ import Sidebar from "../Sidebar/Sidebar";
 
 const Bca = () => {
   return (
-    <div className="h-full flex justify-between">
+    <div className="h-full flex gap-10">
       <div>
         <Sidebar />
       </div>
