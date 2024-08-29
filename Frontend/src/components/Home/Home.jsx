@@ -2,7 +2,7 @@ import React from "react";
 import {Link, NavLink} from "react-router-dom";
 const Home = () => {
   return (
-    <div className="h-screen bg-red-400">
+    <div className="grow bg-red-400">
       <div className="h-full flex gap-3 justify-center items-center">
         <div>
           <NavLink to="bca">

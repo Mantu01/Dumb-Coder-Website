@@ -3,7 +3,7 @@ import {NavLink, useParams} from "react-router-dom";
 
 const Semester = () => {
   let {courseSem} = useParams();
-  return <div>{courseSem}</div>;
+  return <div className="bg-blue-200 grow">Semester : {courseSem}</div>;
 };
 
 export default Semester;
